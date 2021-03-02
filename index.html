@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="barra-superior">
+        Quiz
+    </div>
+    <hr> <!--barra separadora-->
+
+    <form class="interfaz" name="form" id="form">
+        <div class="container">
+            <div class="preguntas">
+                <h3>Cuando fué la ultima vez que Boca ganó la Copa Libertadores?</h3>
+                <div class="opciones">
+                    <p>1) 2005<input type="radio" class="respuesta" name="pregunta1" value="2005"></p>
+                    <p>2) 2007<input type="radio" class="respuesta" name="pregunta1" value="2007"></p>
+                    <p>3) 2011<input type="radio" class="respuesta" name="pregunta1" value="2011"></p>
+                    <p>4) 2012<input type="radio" class="respuesta" name="pregunta1" value="2012"></p>
+                    <div id="pregun1"></div>
+                </div>
+            </div>
+            <div class="preguntas">
+                <h3>Mi guitarrista favorito:</h3>
+                <div class="opciones">
+                    <p>1) Eric Clapton<input type="radio" name="pregunta2" value="EricClapton"></p>
+                    <p>2) Strevie Ray Vaughan<input type="radio" name="pregunta2" value="SRV"></p>
+                    <p>3) Jimi Hendrix<input type="radio" name="pregunta2" value="Hendrix"></p>
+                    <p>4) Jimmy Page<input type="radio" name="pregunta2" value="Page"></p>
+                    <div id="pregun2"></div>
+                </div>
+            </div>
+            <div class="preguntas">
+                <h3>País mas grande:</h3>
+                <div class="opciones">
+                    <p>1) Canadá<input type="radio" name="pregunta3" value="Cn"></p>
+                    <p>2) China<input type="radio" name="pregunta3" value="Ch"></p>
+                    <p>3) Rusia<input type="radio" name="pregunta3" value="Ru"></p>
+                    <p>4) Estados Unidos<input type="radio" name="pregunta3" value="EEUU"></p>
+                    <div id="pregun3"></div>
+                </div>
+            </div>
+            <div class="preguntas">
+                <h3>En que año cayo el Imperio Romano?</h3>
+                <div class="opciones">
+                    <p>1) 476 d.C.<input type="radio" name="pregunta4" value="476"></p>
+                    <p>2) 635 d.C.<input type="radio" name="pregunta4" value="835"></p>
+                    <p>3) 33 d.C.<input type="radio" name="pregunta4" value="33"></p>
+                    <p>4) 233 a.C<input type="radio" name="pregunta4" value="233"></p>
+                    <div id="pregun4"></div>
+                </div>
+            </div>  
+
+            <input type="button" class="boton-listo" value="Listo." onclick="Listo()">
+        </div>
+    </form>
+    
+
+    <script src="code.js"></script>
+</body>
+</html>
